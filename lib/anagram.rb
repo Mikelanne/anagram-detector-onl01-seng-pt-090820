@@ -3,16 +3,16 @@
 require 'pry'
 
 class Anagram
-  attr_accessor :words 
+  attr_accessor :word 
   
-  def initialize(words)
-    @words = words 
+  def initialize(word)
+    @word = word
   end 
   
    binding.pry
   
-  def self.match(words)
-  
+  def self.match(anagram_array)
+    if anagram_array == word.split("")
     
    #words.split("") == words
   
