@@ -9,8 +9,10 @@ class Anagram
     @anagram = anagram
   end 
   
+  binding.pry
+  
   def self.match(words)
-    
+    words.include?(@anagram)
   end
     
 end 
