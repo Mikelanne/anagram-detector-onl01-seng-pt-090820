@@ -9,12 +9,11 @@ class Anagram
     @anagram = anagram
   end 
   
-  binding.pry
-  
   def self.match(words)
-   if words.include?(@anagram)
-     "#{words}"
-   end
+    split_anagram = @anagram.split("")
+    split_anagram.collect do |w|
+      w.include?(words)
+    end 
   end
     
 end 
