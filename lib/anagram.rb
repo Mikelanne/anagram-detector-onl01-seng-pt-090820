@@ -9,7 +9,7 @@ class Anagram
     @anagram = anagram
   end 
   
-  def self.match(anagram_array)
+  def self.match(words)
     
   end
     
