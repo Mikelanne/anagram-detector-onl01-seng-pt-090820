@@ -11,7 +11,7 @@ class Anagram
   
   def self.match(words)
     binding.pry
-   words.split("") == words
+   #words.split("") == words
   
   end
     
