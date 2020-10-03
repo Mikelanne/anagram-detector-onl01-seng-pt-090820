@@ -12,7 +12,9 @@ class Anagram
   binding.pry
   
   def self.match(words)
-    words.include?(@anagram)
+   if words.include?(@anagram)
+     "#{words}"
+   end
   end
     
 end 
