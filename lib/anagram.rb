@@ -12,10 +12,7 @@ class Anagram
    binding.pry
   
   def self.match(anagram_array)
-    #if anagram_array == word.split("")
     
-   #words.split("") == words
-  
   end
     
 end 
