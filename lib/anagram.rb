@@ -9,9 +9,10 @@ class Anagram
     @words = words 
   end 
   
+   binding.pry
+  
   def self.match(words)
-    
-    binding.pry
+  
     
    #words.split("") == words
   
