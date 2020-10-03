@@ -10,9 +10,7 @@ class Anagram
   end 
   
   def self.match(words)
-    split_anagram = @anagram.split("")
-    split_anagram.collect do |w|
-      w.include?(words)
+    
     end 
   end
     
