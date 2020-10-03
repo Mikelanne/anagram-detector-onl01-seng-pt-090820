@@ -3,13 +3,11 @@
 require 'pry'
 
 class Anagram
-  attr_accessor :word 
+  attr_accessor :anagram 
   
-  def initialize(word)
-    @word = word
+  def initialize(anagram)
+    @anagram = anagram
   end 
-  
-   binding.pry
   
   def self.match(anagram_array)
     
